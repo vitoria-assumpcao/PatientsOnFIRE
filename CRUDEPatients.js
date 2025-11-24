@@ -66,7 +66,7 @@
                 hideMessage();
             }
 
-            //Operação Update/PUT (show form with data)
+            //Mostra os formularios com os dados
             function showUpdateForm(patient) {
                 patientForm.reset();
                 
