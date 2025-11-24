@@ -1,0 +1,31 @@
+
+        /* Define a fonte Inter como padrão */
+        body {
+            font-family: "Inter", sans-serif;
+        }
+        /* Custom scrollbar para a lista de pacientes */
+        #patient-list-container::-webkit-scrollbar {
+            width: 8px;
+        }
+        #patient-list-container::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 4px;
+        }
+        #patient-list-container::-webkit-scrollbar-track {
+            background-color: #f1f5f9;
+        }
+        /* Classe para esconder elementos */
+        .hidden {
+            display: none;
+        }
+        fieldset {
+            border: 1px solid #e5e7eb;
+            border-radius: 0.5rem;
+            padding: 1rem;
+            margin-top: 1rem;
+        }
+        legend {
+            padding: 0 0.5rem;
+            font-weight: 500;
+            color: #374151;
+        }
